@@ -82,6 +82,7 @@ watch(() => route.path, pickQuote)
   display: inline-block;
   opacity: 0;
   animation: char-appear 0.3s ease-out forwards;
+  white-space: pre;
 }
 
 @keyframes char-appear {
